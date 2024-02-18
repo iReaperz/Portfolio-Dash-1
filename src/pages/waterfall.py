@@ -15,7 +15,7 @@ def calculate_pchg(group):
     group['MaxPchg'] = group['pchg'].max()
     return group
 
-adlbc_raw = pd.read_csv(("raw/adlbc.csv")    )
+adlbc_raw = pd.read_csv(("src/raw/adlbc.csv")    )
 
 layout = html.Div(children=[
     html.Div([

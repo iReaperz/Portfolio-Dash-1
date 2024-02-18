@@ -7,8 +7,8 @@ from dash import  dcc, html, Input, Output, callback
 dash.register_page(__name__, path='/scatterplot', name="Scatter Plot")
 
 #Importing data
-adlbc_raw = pd.read_csv("raw/adlbc.csv")
-adsl_raw = pd.read_csv("raw/adsl.csv")
+adlbc_raw = pd.read_csv("src/raw/adlbc.csv")
+adsl_raw = pd.read_csv("src/raw/adsl.csv")
 adsl_raw.rename(columns={'trt01a': 'trta'}, inplace=True)
 
 layout = html.Div(children=[

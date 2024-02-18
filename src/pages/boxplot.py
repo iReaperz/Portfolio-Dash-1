@@ -10,7 +10,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 dash.register_page(__name__, path='/boxplot', name="Box Plot")
 
-adlbc_raw = pd.read_csv("raw/adlbc.csv")
+adlbc_raw = pd.read_csv("src/raw/adlbc.csv")
 
 def create_box_plot(trt_selection):
     adlbc_filtred = adlbc_raw[(adlbc_raw["paramcd"] == trt_selection) & (adlbc_raw["avisitn"].notnull())]          
