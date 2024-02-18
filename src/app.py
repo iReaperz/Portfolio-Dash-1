@@ -17,7 +17,7 @@ pages_links = [dcc.Link(page['name'], href=page["relative_path"], className="nav
 app.layout = html.Div([
     html.Nav(children=[
         html.Div([
-            html.Div([header, ] + pages_links, className="navbar")
+            html.Div(pages_links, className="navbar")
         ]),
     ]),
     html.Div(style={"height": "10px", "background-color": "#e6e6e6"}),

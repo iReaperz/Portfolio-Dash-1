@@ -35,11 +35,6 @@ layout = html.Div(children=[
                     html.Img(src="assets/git.png", className="git-img"),
                     href="https://github.com/iReaperz",
                     style={'display': 'inline-block'}
-                ),
-                html.A(
-                    html.Img(src="assets/medium.png", className="medium-img"),
-                    href="link3",
-                    style={'display': 'inline-block'}
                 )
             ], className="plotWB"),
         ], className = "dropDownBW"),
