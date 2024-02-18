@@ -1,0 +1,179 @@
+.navbar {
+    height: 80px;
+    background-color: #ffffff; /* Цвет фона */
+    display: flex;
+    width: 100%; /* Ширина на всю ширину окна браузера */
+    align-items: center;
+}
+
+.plotWB {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.plotSE {
+    text-align: center;
+    margin-top: 350px;
+}
+
+.plotSC {
+    text-align: center;
+    margin-top: 430px;
+}
+
+.linked-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+.git-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+.medium-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+
+.nav-link {
+    margin-right: 20px; /* Отступ между элементами навигационной панели */
+    color: rgb(21, 113, 119); /* Цвет текста элементов */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+.nav-link:hover {
+    color: #17c6d3; /* Цвет текста при наведении */
+}
+
+.navbar-left {
+    flex-grow: 1;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.navbar-right {
+    flex-grow: 0; /* Не занимает место при выравнивании */
+}
+
+.dropDownSE {
+    width: 17%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    height: 600px; /* Фиксированная высота в пикселях */
+}
+
+.dropDownBW {
+    width: 17%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    height: 600px; /* Фиксированная высота в пикселях */
+}
+
+.dropDownSC {
+    width: 17%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    height: 600px; /* Фиксированная высота в пикселях */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Высота контейнера равна высоте экрана */
+}
+.main-div {
+    display: flex;
+}
+
+.graph-class {
+    width: 100%; /* Ширина графика равна ширине родительского контейнера */
+    height: 100%; /* Высота графика равна высоте родительского контейнера */
+}
+
+.graph-div {
+    width: 80%;
+    height: 100vh;
+}
+
+@media (min-width: 10px) and (max-width: 1270px) {
+    .graph-div {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .plotWB {
+        text-align: center;
+        margin-top: 25px; /* Пример значения отступа для класса .plotWB при ширине окна менее 1165 пикселей */
+    }
+    
+    .plotSE {
+        text-align: center;
+        margin-top: 26px; /* Пример значения отступа для класса .plotSE при ширине окна менее 1165 пикселей */
+    }
+    
+    .plotSC {
+        text-align: center;
+        margin-top: 30px; /* Пример значения отступа для класса .plotSC при ширине окна менее 1165 пикселей */
+    }
+
+    .dropDownSE {
+        width: 100%;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 250px; /* Фиксированная высота в пикселях */
+    }
+    
+    .dropDownBW {
+        width: 100%;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 100px; /* Фиксированная высота в пикселях */
+    }
+    
+    .dropDownSC {
+        width: 100%;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 180px; /* Фиксированная высота в пикселях */
+    }
+
+    .main-div {
+        display: block;
+    }
+}
+
+
+
+
+
