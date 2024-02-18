@@ -29,20 +29,15 @@ layout = html.Div(children=[
                 style={'margin-top': "5px"}
             ),
             html.Div([
-                html.Footer("Follow us:", style={'color': "#17c6d3", 'display': 'inline-block', 'vertical-align': 'middle'}),
+                html.Footer("Follow me:", style={'color': "#17c6d3", 'display': 'inline-block', 'vertical-align': 'middle'}),
                 html.A(
                     html.Img(src="assets/linked.png", className="linked-img"),
-                    href="link1",
+                    href="https://www.linkedin.com/in/noy-simonyan-888683266/",
                     style={'display': 'inline-block'}
                 ),
                 html.A(
                     html.Img(src="assets/git.png", className="git-img"),
-                    href="link2",
-                    style={'display': 'inline-block'}
-                ),
-                html.A(
-                    html.Img(src="assets/medium.png", className="medium-img"),
-                    href="link3",
+                    href="https://github.com/iReaperz",
                     style={'display': 'inline-block'}
                 )
             ], className="plotSC"),

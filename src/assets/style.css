@@ -34,13 +34,7 @@
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-  }
-  
-.medium-img {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-  }
+}
 
 .nav-link {
     margin-right: 20px; /* Отступ между элементами навигационной панели */
