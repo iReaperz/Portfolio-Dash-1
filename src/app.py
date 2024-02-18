@@ -10,14 +10,14 @@ external_css = ["assets/style.css"]
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=external_css, title="PortfolioDash")
 server = app.server
 
-header = html.A("Commnon Plots in Clinical Trials", className="navbar-left")
+header = html.A(" ", className="navbar-left")
 pages_links = [dcc.Link(page['name'], href=page["relative_path"], className="nav-link fs-5 navbar-right")
                for page in dash.page_registry.values() if page["name"] != "Not found 404"]
 
 app.layout = html.Div([
     html.Nav(children=[
         html.Div([
-            html.Div(pages_links, className="navbar")
+            html.Div([header, ] + pages_links, className="navbar")
         ]),
     ]),
     html.Div(style={"height": "10px", "background-color": "#e6e6e6"}),
