@@ -1,8 +1,8 @@
 .navbar {
     height: 80px;
-    background-color: #ffffff; /* Цвет фона */
+    background-color: #ffffff; /* Background color */
     display: flex;
-    width: 100%; /* Ширина на всю ширину окна браузера */
+    width: 100%; /* Full width of the browser window */
     align-items: center;
 }
 
@@ -27,7 +27,7 @@
     margin-left: 10px;
     margin-right: 5px;
     vertical-align: middle;
-  }
+}
 
 .git-img {
     width: 20px;
@@ -37,13 +37,13 @@
 }
 
 .nav-link {
-    margin-right: 20px; /* Отступ между элементами навигационной панели */
-    color: rgb(21, 113, 119); /* Цвет текста элементов */
-    text-decoration: none; /* Убираем подчеркивание ссылок */
+    margin-right: 20px; /* Spacing between navigation items */
+    color: rgb(21, 113, 119); /* Text color of the items */
+    text-decoration: none; /* Remove link underline */
 }
 
 .nav-link:hover {
-    color: #17c6d3; /* Цвет текста при наведении */
+    color: #17c6d3; /* Text color on hover */
 }
 
 .navbar-left {
@@ -55,7 +55,7 @@
 }
 
 .navbar-right {
-    flex-grow: 0; /* Не занимает место при выравнивании */
+    flex-grow: 0; /* Doesn't take up space when aligned */
 }
 
 .dropDownSE {
@@ -66,7 +66,7 @@
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
-    height: 600px; /* Фиксированная высота в пикселях */
+    height: 600px; /* Fixed height in pixels */
 }
 
 .dropDownBW {
@@ -77,7 +77,7 @@
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
-    height: 600px; /* Фиксированная высота в пикселях */
+    height: 600px; /* Fixed height in pixels */
 }
 
 .dropDownSC {
@@ -88,21 +88,22 @@
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
-    height: 600px; /* Фиксированная высота в пикселях */
+    height: 600px; /* Fixed height in pixels */
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Высота контейнера равна высоте экрана */
+    height: 100vh; /* Container height equals screen height */
 }
+
 .main-div {
     display: flex;
 }
 
 .graph-class {
-    width: 100%; /* Ширина графика равна ширине родительского контейнера */
-    height: 100%; /* Высота графика равна высоте родительского контейнера */
+    width: 100%; /* Graph width equals parent container width */
+    height: 100%; /* Graph height equals parent container height */
 }
 
 .graph-div {
@@ -118,17 +119,17 @@
 
     .plotWB {
         text-align: center;
-        margin-top: 25px; /* Пример значения отступа для класса .plotWB при ширине окна менее 1165 пикселей */
+        margin-top: 25px; /* Example margin value for .plotWB class when window width is less than 1165 pixels */
     }
-    
+
     .plotSE {
         text-align: center;
-        margin-top: 26px; /* Пример значения отступа для класса .plotSE при ширине окна менее 1165 пикселей */
+        margin-top: 26px; /* Example margin value for .plotSE class when window width is less than 1165 pixels */
     }
-    
+
     .plotSC {
         text-align: center;
-        margin-top: 30px; /* Пример значения отступа для класса .plotSC при ширине окна менее 1165 пикселей */
+        margin-top: 30px; /* Example margin value for .plotSC class when window width is less than 1165 pixels */
     }
 
     .dropDownSE {
@@ -139,9 +140,9 @@
         border: 1px solid black;
         padding: 20px;
         border-radius: 10px;
-        height: 250px; /* Фиксированная высота в пикселях */
+        height: 250px; /* Fixed height in pixels */
     }
-    
+
     .dropDownBW {
         width: 100%;
         margin-top: 40px;
@@ -150,9 +151,9 @@
         border: 1px solid black;
         padding: 20px;
         border-radius: 10px;
-        height: 100px; /* Фиксированная высота в пикселях */
+        height: 100px; /* Fixed height in pixels */
     }
-    
+
     .dropDownSC {
         width: 100%;
         margin-top: 40px;
@@ -161,15 +162,10 @@
         border: 1px solid black;
         padding: 20px;
         border-radius: 10px;
-        height: 180px; /* Фиксированная высота в пикселях */
+        height: 180px; /* Fixed height in pixels */
     }
 
     .main-div {
         display: block;
     }
 }
-
-
-
-
-
