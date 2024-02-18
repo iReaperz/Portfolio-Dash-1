@@ -50,6 +50,8 @@
     flex-grow: 1;
     margin-left: 60px;
     margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .navbar-right {
