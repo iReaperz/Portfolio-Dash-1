@@ -7,7 +7,7 @@ from dash import  dcc, html, Input, Output, callback
 
 dash.register_page(__name__, path='/', name="Series Plot")
 
-raw = pd.read_csv("src/raw/adlbc.csv")
+raw = pd.read_csv("raw/adlbc.csv")
 
 layout = html.Div(children=[
     html.Div([
