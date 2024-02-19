@@ -59,7 +59,7 @@
 }
 
 .dropDownSE {
-    width: 17%;
+    width: 300px;
     margin-top: 40px;
     margin-right: 40px;
     margin-left: 40px;
@@ -102,18 +102,18 @@
 }
 
 .graph-class {
-    width: 100%; /* Graph width equals parent container width */
+    width:99%; /* Graph width equals parent container width */
     height: 100%; /* Graph height equals parent container height */
 }
 
 .graph-div {
-    width: 80%;
+    width: 1820px;
     height: 100vh;
 }
 
-@media (min-width: 10px) and (max-width: 1270px) {
+@media (min-width: 904px) and (max-width: 1849px) {
     .graph-div {
-        width: 100%;
+        width:  100%;
         height: 100vh;
     }
 
@@ -135,8 +135,6 @@
     .dropDownSE {
         width: 100%;
         margin-top: 40px;
-        margin-right: 40px;
-        margin-left: 40px;
         border: 1px solid black;
         padding: 20px;
         border-radius: 10px;
@@ -156,6 +154,63 @@
 
     .dropDownSC {
         width: 100%;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 180px; /* Fixed height in pixels */
+    }
+
+    .main-div {
+        display: block;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 903px) {
+    .graph-div {
+        width: 900px;
+        height: 100vh;
+    }
+
+    .plotWB {
+        text-align: center;
+        margin-top: 25px; /* Example margin value for .plotWB class when window width is less than 1165 pixels */
+    }
+
+    .plotSE {
+        text-align: center;
+        margin-top: 26px; /* Example margin value for .plotSE class when window width is less than 1165 pixels */
+    }
+
+    .plotSC {
+        text-align: center;
+        margin-top: 30px; /* Example margin value for .plotSC class when window width is less than 1165 pixels */
+    }
+
+    .dropDownSE {
+        width: 760px;
+        margin-top: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 250px; /* Fixed height in pixels */
+    }
+
+    .dropDownBW {
+        width: 760px;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        height: 100px; /* Fixed height in pixels */
+    }
+
+    .dropDownSC {
+        width: 760px;
         margin-top: 40px;
         margin-right: 40px;
         margin-left: 40px;
